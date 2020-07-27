@@ -1,0 +1,45 @@
+<div class="container-fluid top-bar">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 contact-info">   
+        <a href="mailto:info@mhjamsandjellies.com"><i class="fa fa-envelope" aria-hidden="true"></i> : info@mhjamsandjellies.com</a>
+        <a href="mailto:info@mhjamsandjellies.com"><i class="fa fa-phone" aria-hidden="true"></i> : 980-636-9644</a>
+      </div>
+      <div class="col-md-5 ml-auto social-links">
+        <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+        <a href="#"></a><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-light static-top">
+    <div class="container">
+      <a class="navbar-brand" routerLink="/home"><img class="logo-image" src="../../assets/apple-touch-icon.png" /></a>
+      <button class="navbar-toggler" type="button" (click)="toggleNavbar()" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive" [ngClass] = "{ 'show': navbarOpen}">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/">HOME
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/about-us">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/our-products">OUR PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact-us">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/cart">CART <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+<div class="container-fluid bottom-bar">
+</div>

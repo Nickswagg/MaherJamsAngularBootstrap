@@ -1,0 +1,56 @@
+.page-head{
+    background-color: #FAFAFA;
+    padding: 10px 10px;
+}
+.title-link{
+    color:  #ff5c5c;
+    font-size: 15px;
+}
+.page-big-title{
+    color: #161e67;
+    text-shadow: rgb(255, 92, 92) 1px 1px 2px;
+}
+.about-body{
+    background-color: #161e67;
+    padding: 20px 20px;
+}
+.bloc-title
+{
+    font-size: 50px;
+    color: #fff;
+    border-bottom: 1px solid #cccccc;
+}
+
+.product-title
+{
+    font-size: 24px;
+    color: #161e67;
+    border-bottom: 1px solid #ff5c5c;
+}
+.btn-blue
+{
+    background: rgb(6,20,140);
+    background: linear-gradient(90deg, rgba(6,20,140,1) 0%, rgba(12,28,176,1) 43%, rgba(22,30,103,1) 100%);
+    border-color: #ffffff;
+    border-radius: 50px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+/*  Modal Header */
+.modal-header
+{
+    background: rgb(6,20,140);
+    background: linear-gradient(90deg, rgba(6,20,140,1) 0%, rgba(12,28,176,1) 43%, rgba(22,30,103,1) 100%);
+    color: #ffffff;
+}
+.modal-footer
+{
+    
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(204,64,64,1) 0%, rgba(212,52,52,1) 43%, rgba(255,92,92,1) 100%); 
+}
+#modal-basic-title
+{
+    font-size: 18px;
+}

@@ -1,0 +1,73 @@
+.top-bar{
+    padding: 10px 0;
+    font-size: 15px;
+    width: 100%;
+    color: #ffffff;
+    background: rgb(22,30,103);
+    background: linear-gradient(90deg, rgba(22,30,103,1) 0%, rgba(255,92,92,1) 43%, rgba(22,30,103,1) 100%);
+}
+.top-bar a 
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.top-bar a:hover
+{
+    color: #F2A22C;
+}
+.fa-envelope{
+    color: #F2A22C;
+}
+.fa-phone{
+    color: #F2A22C;
+}
+.contact-info{
+    display: inline-block;
+}
+.contact-info .fa-phone{
+    padding-left: 20px;
+}
+.social-links{
+    text-align: right;
+    display: inline-block;
+}
+.social-links .fa-instagram{
+    padding-left:15px;
+}
+.social-links .fa-twitter-square{
+    padding-left:15px;
+}
+.bottom-bar{
+    height: 4px;
+    background: rgb(22,30,103);
+    background: linear-gradient(90deg, rgba(22,30,103,1) 0%, rgba(255,92,92,1) 43%, rgba(22,30,103,1) 100%);
+}
+.logo-image{
+    height: 110px;
+    width: 110px;
+}
+.bg-light{
+    background-color: #ffffff !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #161e67;
+    margin: 12px;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #ff5c5c
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #161e67 !important;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    border-radius: .25rem;
+}

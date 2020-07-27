@@ -1,0 +1,26 @@
+.page-head{
+    background-color: #FAFAFA;
+    padding: 10px 10px;
+}
+.title-link{
+    color:  #ff5c5c;
+    font-size: 15px;
+}
+.page-big-title{
+    color: #161e67;
+    text-shadow: rgb(255, 92, 92) 1px 1px 2px;
+}
+.about-body{
+    background-color: #161e67;
+    padding: 20px 20px;
+}
+.bloc-title
+{
+    font-size: 50px;
+    color: #fff;
+    border-bottom: 1px solid #cccccc;
+}
+.mission{
+    background: linear-gradient(90deg, rgba(204,64,64,1) 0%, rgba(212,52,52,1) 43%, rgba(255,92,92,1) 100%);
+    padding: 15px 15px;
+}

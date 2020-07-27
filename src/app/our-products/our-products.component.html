@@ -1,0 +1,299 @@
+<app-top-navbar></app-top-navbar>
+<div class="container-fluid page-head">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <br>
+                <h2 class="title-link">Home / Our Products </h2>
+                <h2 class="page-big-title">Our Products</h2>
+                <br>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <br>
+            <h2 class="bloc-title"><span style="color: #161e67;">TOP </span><span style="color: #ff5c5c;">SELLING</span></h2>
+            <br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Strawberry</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/Strawberry.png" />
+            <br><br>
+            <button type="button" class="btn btn-blue btn-primary btn-lg" (click)="open(content)">VIEW THIS PRODUCT</button>
+
+            <!--Modal One-->
+            <ng-template #content let-modal>
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modal-basic-title">Product Informations</h4>
+                  <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-8">
+                            <img class="img-thumbnail" src="../../assets/top-sellers/Strawberry.png" />
+                          </div>
+                          <div class="col-lg-4">
+                              <h4>Strawberry</h4>
+                              <p>Popularity : 10/10</p>
+                              <p>Small : 4.99</p>
+                              <p>Large : 7.99</p>
+                              <p>Small : 80z</p>
+                              <p>Large : 120z</p>
+                          </div>
+                      </div>
+                  </div>
+                  <br>
+                  <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p>Strawberry jelly is the stuff of childhood dreams. Sunday afternoon tea is never right without it. It is an essential part of every pantry.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-blue btn-primary btn-lg" (click)="modal.close('Save click')">Add to Cart</button>
+                </div>
+            </ng-template>
+            <!--End Modal-->
+        </div>
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Grape Belly</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/grapejelly.png" />
+            <br><br>
+            <button type="button" class="btn btn-blue btn-primary btn-lg"  (click)="open(content2)">VIEW THIS PRODUCT</button>
+            <!--Modal Two-->
+            <ng-template #content2 let-modal>
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modal-basic-title">Product Informations</h4>
+                  <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-8">
+                            <img class="img-thumbnail" src="../../assets/top-sellers/grapejelly.png" />
+                          </div>
+                          <div class="col-lg-4">
+                              <h4>Grape Belly</h4>
+                              <p>Popularity : 10/10</p>
+                              <p>Small : 4.99</p>
+                              <p>Large : 7.99</p>
+                              <p>Small : 80z</p>
+                              <p>Large : 120z</p>
+                          </div>
+                      </div>
+                  </div>
+                  <br>
+                  <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p>America's favorite. Every jar starts with one pound of grapes. For delicious, one‑of‑a‑kind taste with no artificial flavors or colors.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-blue btn-primary btn-lg" (click)="modal.close('Save click')">Add to Cart</button>
+                </div>
+            </ng-template>
+            <!--End Modal-->
+        </div>
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Blackberry</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/Blackberry.png" />
+            <br><br>
+            <button type="button" class="btn btn-blue btn-primary btn-lg" (click)="open(content3)">VIEW THIS PRODUCT</button>
+            <!--Modal Three-->
+            <ng-template #content3 let-modal>
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modal-basic-title">Product Informations</h4>
+                  <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-8">
+                            <img class="img-thumbnail" src="../../assets/top-sellers/Blackberry.png" />
+                          </div>
+                          <div class="col-lg-4">
+                              <h4>Blackberry</h4>
+                              <p>Popularity : 10/10</p>
+                              <p>Small : 4.99</p>
+                              <p>Large : 7.99</p>
+                              <p>Small : 80z</p>
+                              <p>Large : 120z</p>
+                          </div>
+                      </div>
+                  </div>
+                  <br>
+                  <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p>Savor the tart, sweet flavor of fresh summer blackberries all year round with this Blackberry Jelly recipe. Can complement any dessert.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-blue btn-primary btn-lg" (click)="modal.close('Save click')">Add to Cart</button>
+                </div>
+            </ng-template>
+            <!--End Modal-->
+        </div>
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Applebutter</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/applebutter.png" />
+            <br><br>
+            <button type="button" class="btn btn-blue btn-primary btn-lg" (click)="open(content4)">VIEW THIS PRODUCT</button>
+            <!--Modal Four-->
+            <ng-template #content4 let-modal>
+                <div class="modal-header">
+                  <h4 class="modal-title" id="modal-basic-title">Product Informations</h4>
+                  <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-8">
+                            <img class="img-thumbnail" src="../../assets/top-sellers/applebutter.png" />
+                          </div>
+                          <div class="col-lg-4">
+                              <h4>Applebutter</h4>
+                              <p>Popularity : 10/10</p>
+                              <p>Small : 4.99</p>
+                              <p>Large : 7.99</p>
+                              <p>Small : 80z</p>
+                              <p>Large : 120z</p>
+                          </div>
+                      </div>
+                  </div>
+                  <br>
+                  <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p>This homemade Apple Butter is smooth, creamy, and velvety. Super healthy, delicious, and perfect for spreading on toast, muffins, pancakes etc.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-blue btn-primary btn-lg" (click)="modal.close('Save click')">Add to Cart</button>
+                </div>
+            </ng-template>
+            <!--End Modal-->
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-md-12" style="height: 7px; background-color: #ff5c5c;">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <br>
+            <h2 class="page-big-title">Our Products</h2>
+            <br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Super Berry</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/Strawberry.png" />
+            <br><br>
+            <button type="button" class="btn btn-blue btn-primary btn-lg" (click)="open(content)">VIEW THIS PRODUCT</button>
+        </div>
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Strawberry</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/grapejelly.png" />
+            <br><br>
+            <button type="button" class="btn btn-blue btn-primary btn-lg" (click)="open(content2)">VIEW THIS PRODUCT</button>
+        </div>
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Raspberry</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/Blackberry.png" />
+            <br><br>
+            <button type="button" class="btn btn-blue btn-primary btn-lg" (click)="open(content3)">VIEW THIS PRODUCT</button>
+        </div>
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Mixed Berry</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/applebutter.png" />
+            <br><br>
+            <button type="button" class="btn btn-blue btn-primary btn-lg" (click)="open(content4)">VIEW THIS PRODUCT</button>
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Lemon</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/lemon.png" />
+            <br><br>
+            <button type="button" class="btn btn-blue btn-primary btn-lg" (click)="open(content)">VIEW THIS PRODUCT</button>
+        </div>
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Grape jelly</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/grapejelly.png" />
+            <br><br>
+            <button type="button" (click)="open(content2)" class="btn btn-blue btn-primary btn-lg">VIEW THIS PRODUCT</button>
+        </div>
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Ginger Cardamom</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/Ginger-Cardamom-Pear-Butter.png" />
+            <br><br>
+            <button type="button" (click)="open(content3)" class="btn btn-blue btn-primary btn-lg">VIEW THIS PRODUCT</button>
+        </div>
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Cinnamon Blueberry</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/cinnamonblueberry.png" />
+            <br><br>
+            <button type="button" (click)="open(content4)" class="btn btn-blue btn-primary btn-lg">VIEW THIS PRODUCT</button>
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Cinnamon Spiced</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/Cinnamon-Spiced-Triple-Berry-Jam.png" />
+            <br><br>
+            <button type="button" (click)="open(content)" class="btn btn-blue btn-primary btn-lg">VIEW THIS PRODUCT</button>
+        </div>
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Blueberry</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/blueberry.png" />
+            <br><br>
+            <button type="button" (click)="open(content2)" class="btn btn-blue btn-primary btn-lg">VIEW THIS PRODUCT</button>
+        </div>
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Blackberry</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/Blackberry.png" />
+            <br><br>
+            <button type="button" (click)="open(content3)" class="btn btn-blue btn-primary btn-lg">VIEW THIS PRODUCT</button>
+        </div>
+        <div class="col-md-3" style="margin-top: 10px;">
+            <h3 class="product-title">Apple Butter</h3>
+            <img class="img-thumbnail" src="../../assets/top-sellers/applebutter.png" />
+            <br><br>
+            <button type="button" (click)="open(content4)" class="btn btn-blue btn-primary btn-lg">VIEW THIS PRODUCT</button>
+        </div>
+    </div>
+</div>
+<br><br><br><br>
+<app-footer></app-footer>
